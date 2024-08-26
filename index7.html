@@ -12,28 +12,29 @@
 
 
     <style>
-        .container{
-       display:flex;
-      gap:10px;
-       flex-direction: row;
+    .container{
+        display:flex;
+        position: fixed;
+        gap:10px;
+        flex-direction: row;
+      
        
 
  }
 
 .item1{
-    display: flex;
+    display:flex;
     position: fixed;
+    flex-wrap: nowrap;
     background-color: rgb(2, 2, 2);
     color: aliceblue; 
     top:50px;
-    left:-690px;
+    left:-7px;
+    padding: 20px;
     font-size: 1rem;
-    border:solid;
-
-   gap:10px;
-    
+    border:1px solid;
+    gap:10px;
 }
-
 
 .plus{
 position:absolute;
@@ -124,7 +125,7 @@ left: 250px;
 
        
    <div class="item1">
-
+         
          <div class="item">W3.css</div>
          <div class="item">C</div><br>
         <div class="item">C++</div>
